@@ -17,7 +17,7 @@ def PrintSensorTargets(targets):
     system('cls' if platform == 'win32' else 'clear')
     if targets:
         for i, target in enumerate(targets):
-            print('blah blah blah Target #{}:\nx: {}\ny: {}\nz: {}\namplitude: {}\n'.format(
+            print('Target #{}:\nx: {}\ny: {}\nz: {}\namplitude: {}\n'.format(
                 i + 1, target.xPosCm, target.yPosCm, target.zPosCm,
                 target.amplitude))
     else:
